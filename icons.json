@@ -2,36 +2,36 @@
     "icons": [
       {
         "name": "Misc",
-        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/MISC",
-        "source": "MISC",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Misc",
+        "source": "Misc",
         "count": 33,
         "extension": "svg"
       },
       {
         "name": "Notes",
-        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/NOTES",
-        "source": "NOTES",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Notes",
+        "source": "Notes",
         "count": 33,
         "extension": "svg"
       },
       {
         "name": "Databases",
-        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/DATABASES",
-        "source": "DATABASES",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Databases",
+        "source": "Databases",
         "count": 33,
         "extension": "svg"
       },
       {
-        "name": "Personal",
-        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/PERSONAL",
-        "source": "PERSONAL",
+        "name": "Stuff",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Stuff",
+        "source": "Stuff",
         "count": 33,
         "extension": "svg"
       },
       {
         "name": "Master",
-        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/MASTER",
-        "source": "MASTER",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Master",
+        "source": "Master",
         "count": 33,
         "extension": "svg"
       }
