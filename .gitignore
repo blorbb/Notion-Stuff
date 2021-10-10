@@ -1,7 +1,4 @@
-# mine
 paths.py
-*.code-workspace
-*.drawio
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

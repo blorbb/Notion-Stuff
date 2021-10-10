@@ -1,7 +1,5 @@
 import os
 from wand.image import Image
-from wand.color import Color
-import json
 
 from paths import ROOT_PATH, SOURCE_PATH
 
@@ -40,9 +38,8 @@ for folder, colour in icon_types_dict.items():
             newfile.write(recoloured_code)
 
 # create an array for icons.json
-# TODO create full json
 for filename in files:
-    source_array.append(filename)
+    source_array.append(filename[:-4])
 
 
 page_type_list = [key for key in icon_types_dict.keys()]
@@ -54,7 +51,8 @@ for page_type in page_type_list:
     {{
         "name": "{page_type}",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/{page_type}",
-        "source": {source_array}
+        "source": {source_array},
+        "extension": "svg"
     }},"""
 
     full_icon_groups += icon_groups
