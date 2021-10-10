@@ -2,7 +2,38 @@
     "icons": [
       {
         "name": "Misc",
-        "source": ["file://Users/jiaru/OneDrive/Documents/Important/Icons/Notion-Icons/MISC/MISC_0.svg"]
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/MISC",
+        "source": "MISC",
+        "count": 33,
+        "extension": "svg"
+      },
+      {
+        "name": "Notes",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/NOTES",
+        "source": "NOTES",
+        "count": 33,
+        "extension": "svg"
+      },
+      {
+        "name": "Databases",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/DATABASES",
+        "source": "DATABASES",
+        "count": 33,
+        "extension": "svg"
+      },
+      {
+        "name": "Personal",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/PERSONAL",
+        "source": "PERSONAL",
+        "count": 33,
+        "extension": "svg"
+      },
+      {
+        "name": "Master",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/MASTER",
+        "source": "MASTER",
+        "count": 33,
+        "extension": "svg"
       }
     ]
   }
