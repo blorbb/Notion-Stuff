@@ -1,39 +1,29 @@
 {
-    "icons": [
-      {
-        "name": "Misc",
-        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Misc",
-        "source": "Misc",
-        "count": 33,
-        "extension": "svg"
-      },
-      {
+  "icons": [
+    {
         "name": "Notes",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Notes",
-        "source": "Notes",
-        "count": 33,
-        "extension": "svg"
-      },
-      {
+        "source": ["academic cap.svg", "book.svg", "brain.svg", "cake.svg", "calculator.svg", "calendar-alt.svg", "calendar.svg", "chip.svg", "cloud.svg", "cocktail.svg", "cog.svg", "compare.svg", "computer.svg", "cube.svg", "document-text.svg", "dots-circle-horizontal.svg", "duplicate.svg", "fast-forward.svg", "fire.svg", "globe.svg", "home.svg", "light-bulb.svg", "lightning-bolt.svg", "math.svg", "paint-brush.svg", "palette.svg", "pencil.svg", "play.svg", "template.svg", "thumb-up.svg", "waves.svg", "web.svg", "zoom-in.svg"]
+    },
+    {
         "name": "Databases",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Databases",
-        "source": "Databases",
-        "count": 33,
-        "extension": "svg"
-      },
-      {
+        "source": ["academic cap.svg", "book.svg", "brain.svg", "cake.svg", "calculator.svg", "calendar-alt.svg", "calendar.svg", "chip.svg", "cloud.svg", "cocktail.svg", "cog.svg", "compare.svg", "computer.svg", "cube.svg", "document-text.svg", "dots-circle-horizontal.svg", "duplicate.svg", "fast-forward.svg", "fire.svg", "globe.svg", "home.svg", "light-bulb.svg", "lightning-bolt.svg", "math.svg", "paint-brush.svg", "palette.svg", "pencil.svg", "play.svg", "template.svg", "thumb-up.svg", "waves.svg", "web.svg", "zoom-in.svg"]
+    },
+    {
+        "name": "Misc",
+        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Misc",
+        "source": ["academic cap.svg", "book.svg", "brain.svg", "cake.svg", "calculator.svg", "calendar-alt.svg", "calendar.svg", "chip.svg", "cloud.svg", "cocktail.svg", "cog.svg", "compare.svg", "computer.svg", "cube.svg", "document-text.svg", "dots-circle-horizontal.svg", "duplicate.svg", "fast-forward.svg", "fire.svg", "globe.svg", "home.svg", "light-bulb.svg", "lightning-bolt.svg", "math.svg", "paint-brush.svg", "palette.svg", "pencil.svg", "play.svg", "template.svg", "thumb-up.svg", "waves.svg", "web.svg", "zoom-in.svg"]
+    },
+    {
         "name": "Stuff",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Stuff",
-        "source": "Stuff",
-        "count": 33,
-        "extension": "svg"
-      },
-      {
+        "source": ["academic cap.svg", "book.svg", "brain.svg", "cake.svg", "calculator.svg", "calendar-alt.svg", "calendar.svg", "chip.svg", "cloud.svg", "cocktail.svg", "cog.svg", "compare.svg", "computer.svg", "cube.svg", "document-text.svg", "dots-circle-horizontal.svg", "duplicate.svg", "fast-forward.svg", "fire.svg", "globe.svg", "home.svg", "light-bulb.svg", "lightning-bolt.svg", "math.svg", "paint-brush.svg", "palette.svg", "pencil.svg", "play.svg", "template.svg", "thumb-up.svg", "waves.svg", "web.svg", "zoom-in.svg"]
+    },
+    {
         "name": "Master",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Master",
-        "source": "Master",
-        "count": 33,
-        "extension": "svg"
-      }
-    ]
-  }
+        "source": ["academic cap.svg", "book.svg", "brain.svg", "cake.svg", "calculator.svg", "calendar-alt.svg", "calendar.svg", "chip.svg", "cloud.svg", "cocktail.svg", "cog.svg", "compare.svg", "computer.svg", "cube.svg", "document-text.svg", "dots-circle-horizontal.svg", "duplicate.svg", "fast-forward.svg", "fire.svg", "globe.svg", "home.svg", "light-bulb.svg", "lightning-bolt.svg", "math.svg", "paint-brush.svg", "palette.svg", "pencil.svg", "play.svg", "template.svg", "thumb-up.svg", "waves.svg", "web.svg", "zoom-in.svg"]
+    }
+  ]
+}
