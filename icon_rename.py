@@ -1,5 +1,4 @@
 import os
-from wand.image import Image
 
 from paths import ROOT_PATH, SOURCE_PATH
 
@@ -59,9 +58,13 @@ for page_type in page_type_list:
 
 full_icon_groups = full_icon_groups[:-1]
 
-print(f"""
+json_text = f"""
 {{
   "icons": [{full_icon_groups}
   ]
 }}
-""".replace("'", '"'))
+""".replace("'", '"')
+
+json_path = os.path.join(ROOT_PATH, "icons.json")
+with open(json_path, mode="w") as json_file:
+    json_file.write(json_text)

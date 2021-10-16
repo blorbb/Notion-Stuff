@@ -1,33 +1,34 @@
+
 {
   "icons": [
     {
         "name": "Notes",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Notes",
-        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "open-book", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Databases",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Databases",
-        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "open-book", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Misc",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Misc",
-        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "open-book", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Stuff",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Stuff",
-        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "open-book", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Master",
         "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/Master",
-        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic cap", "book", "brain", "cake", "calculator", "calendar-alt", "calendar", "chip", "cloud", "cocktail", "cog", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "open-book", "paint-brush", "palette", "pencil", "play", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     }
   ]
