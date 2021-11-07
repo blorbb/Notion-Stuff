@@ -49,7 +49,7 @@ for page_type in page_type_list:
     icon_groups = f"""
     {{
         "name": "{page_type}",
-        "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Icons/master/{page_type}",
+        "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/Databases/{page_type}",
         "source": {source_array},
         "extension": "svg"
     }},"""
