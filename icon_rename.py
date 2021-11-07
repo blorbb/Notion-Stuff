@@ -1,7 +1,5 @@
 import os
 
-from paths import ROOT_PATH, SOURCE_PATH
-
 icon_types_dict = {
     "Notes": "lightcyan",
     "Databases": "darksalmon",
@@ -10,16 +8,18 @@ icon_types_dict = {
     "Master": "gold",
 }
 
-source_path = SOURCE_PATH
-root_path = ROOT_PATH
-files = os.listdir(source_path)
+
+cwd = os.getcwd()
+files = os.listdir(os.path.join(cwd, "icons"))
 
 source_array = []
 
 for folder, colour in icon_types_dict.items():
     for filename in files:
-        file_source = os.path.join(source_path, filename)
-        file_destination = os.path.join(root_path, folder, filename)
+        # file in the icons folder
+        file_source = os.path.join(cwd, "icons", filename)
+        # copy to folder of each of the colour variants
+        file_destination = os.path.join(cwd, folder, filename)
 
         # rewrite code of each file
         with open(file_source, mode="r", encoding="utf-8") as file:
@@ -33,6 +33,7 @@ for folder, colour in icon_types_dict.items():
         ending = source_code[end_index:]
         recoloured_code = beginning + f'fill="{colour}"' + ending
 
+        # create the svg in the destination folder
         with open(file_destination, mode="w") as newfile:
             newfile.write(recoloured_code)
 
@@ -49,7 +50,7 @@ for page_type in page_type_list:
     icon_groups = f"""
     {{
         "name": "{page_type}",
-        "sourceUrl": "https://raw.githubusercontent.com/waaaaaaaaaaaaaaaaaaaaa/Notion-Icons/master/{page_type}",
+        "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Icons/master/{page_type}",
         "source": {source_array},
         "extension": "svg"
     }},"""
@@ -65,6 +66,6 @@ json_text = f"""
 }}
 """.replace("'", '"')
 
-json_path = os.path.join(ROOT_PATH, "icons.json")
+json_path = os.path.join(cwd, "icons.json")
 with open(json_path, mode="w") as json_file:
     json_file.write(json_text)
