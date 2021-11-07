@@ -8,18 +8,17 @@ icon_types_dict = {
     "Master": "gold",
 }
 
-
-cwd = os.getcwd()
-files = os.listdir(os.path.join(cwd, "icons"))
+dir = os.path.dirname(os.path.realpath(__file__))
+files = os.listdir(os.path.join(dir, "icons"))
 
 source_array = []
 
 for folder, colour in icon_types_dict.items():
     for filename in files:
         # file in the icons folder
-        file_source = os.path.join(cwd, "icons", filename)
+        file_source = os.path.join(dir, "icons", filename)
         # copy to folder of each of the colour variants
-        file_destination = os.path.join(cwd, folder, filename)
+        file_destination = os.path.join(dir, folder, filename)
 
         # rewrite code of each file
         with open(file_source, mode="r", encoding="utf-8") as file:
@@ -66,6 +65,6 @@ json_text = f"""
 }}
 """.replace("'", '"')
 
-json_path = os.path.join(cwd, "icons.json")
+json_path = os.path.join(dir, "icons.json")
 with open(json_path, mode="w") as json_file:
     json_file.write(json_text)
