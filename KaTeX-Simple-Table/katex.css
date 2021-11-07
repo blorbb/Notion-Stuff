@@ -1,0 +1,10 @@
+/* katex textsf font */
+.katex .textsf,
+.katex .mathsf {
+    font-family: var(--theme--font_sans) !important;
+}
+
+/* change font size */
+.katex [class="mord text"] .textsf {
+    font-size: var(--theme--font_body-size);
+}
