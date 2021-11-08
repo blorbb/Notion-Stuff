@@ -19,6 +19,7 @@
 - hotkeys stop working once `enter`, `esc` or `alt+tab` is pressed
 
 change the hotkeys if you wish, `^` is ctrl, `+` is shift, `!` is alt, `#` is windows key
+
 default table can also be changed, add or remove some `\hline` or `|` to tweak
 
 compiled version (.exe) for ppl who dont have ahk
