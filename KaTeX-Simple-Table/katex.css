@@ -5,6 +5,7 @@
 }
 
 /* change font size */
-.katex [class="mord text"] .textsf {
+.katex [class="mord text"] > .mord.textsf {
     font-size: var(--theme--font_body-size);
 }
+
