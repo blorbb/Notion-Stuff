@@ -25,7 +25,10 @@ for folder in folder_list:
         # everything before and after the fill
         beginning = source_code[:start_index]
         ending = source_code[end_index:]
-        recoloured_code = beginning + f'fill="{folder}"' + ending
+        if folder == "ebebeb":
+            recoloured_code = beginning + f'fill="#ebebeb"' + ending
+        else:
+            recoloured_code = beginning + f'fill="{folder}"' + ending
 
         # create the svg in the destination folder
         with open(icon_destination, mode="w") as newfile:
@@ -40,7 +43,7 @@ for filename in icons_list:
 name_mapping = {
     "Project": "lightcyan",
     "Main": "gold",
-    "Misc": "%23ebebeb",
+    "Misc": "ebebeb",
     "Database": "darksalmon",
     "Stuff": "mediumaquamarine"
 }
