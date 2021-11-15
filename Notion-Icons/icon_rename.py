@@ -36,20 +36,25 @@ for folder in folder_list:
 for filename in icons_list:
     icon_names.append(filename[:-4])  # remove .svg
 
-names = ["Misc", "Database", "Main", "Project", "Stuff"]  # in same order as folder names
+
+name_mapping = {
+    "Project": "lightcyan",
+    "Main": "gold",
+    "Misc": "%23ebebeb",
+    "Database": "darksalmon",
+    "Stuff": "mediumaquamarine"
+}
 
 full_icon_groups = ""
 
-for i, colour in enumerate(folder_list):
-    icon_groups = f"""
+for name, colour in name_mapping.items():
+    full_icon_groups += f"""
     {{
-        "name": "{names[i]}",
+        "name": "{name}",
         "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/{colour}",
         "source": {icon_names},
         "extension": "svg"
-    }},""".replace("#", "%23")
-
-    full_icon_groups += icon_groups
+    }},"""
 
 full_icon_groups = full_icon_groups[:-1]  # remove comma from last one
 
