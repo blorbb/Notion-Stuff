@@ -47,7 +47,7 @@ for i, colour in enumerate(folder_list):
         "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/{colour}",
         "source": {icon_names},
         "extension": "svg"
-    }},"""
+    }},""".replace("#", "%23")
 
     full_icon_groups += icon_groups
 
