@@ -1,24 +1,19 @@
 import os
 
-icon_types_dict = {
-    "Notes": "lightcyan",
-    "Databases": "darksalmon",
-    "Misc": "#EBEBEB",
-    "Stuff": "mediumaquamarine",
-    "Master": "gold",
-}
-
 dir = os.path.dirname(os.path.realpath(__file__))
-files = os.listdir(os.path.join(dir, "icons"))
+icons_list = os.listdir(os.path.join(dir, "icons"))  # source from "icons" folder
 
-source_array = []
+# get all the folder names excluding "icons"
+folder_list = next(os.walk(dir))[1]
+folder_list.remove("icons")
 
-for folder, colour in icon_types_dict.items():
-    for filename in files:
-        # file in the icons folder
+icon_names = []
+for folder in folder_list:
+    for i, filename in enumerate(icons_list):
+        # icon in the icons folder
         file_source = os.path.join(dir, "icons", filename)
         # copy to folder of each of the colour variants
-        file_destination = os.path.join(dir, folder, filename)
+        icon_destination = os.path.join(dir, folder, filename)
 
         # rewrite code of each file
         with open(file_source, mode="r", encoding="utf-8") as file:
@@ -30,33 +25,33 @@ for folder, colour in icon_types_dict.items():
         # everything before and after the fill
         beginning = source_code[:start_index]
         ending = source_code[end_index:]
-        recoloured_code = beginning + f'fill="{colour}"' + ending
+        recoloured_code = beginning + f'fill="{folder}"' + ending
 
         # create the svg in the destination folder
-        with open(file_destination, mode="w") as newfile:
+        with open(icon_destination, mode="w") as newfile:
             newfile.write(recoloured_code)
 
 # create an array for icons.json
-for filename in files:
-    source_array.append(filename[:-4])
+# get names of each icon
+for filename in icons_list:
+    icon_names.append(filename[:-4])  # remove .svg
 
-
-page_type_list = [key for key in icon_types_dict.keys()]
+names = ["Misc", "Database", "Main", "Project", "Stuff"]  # in same order as folder names
 
 full_icon_groups = ""
 
-for page_type in page_type_list:
+for i, colour in enumerate(folder_list):
     icon_groups = f"""
     {{
-        "name": "{page_type}",
-        "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/{page_type}",
-        "source": {source_array},
+        "name": "{names[i]}",
+        "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/{colour}",
+        "source": {icon_names},
         "extension": "svg"
     }},"""
 
     full_icon_groups += icon_groups
 
-full_icon_groups = full_icon_groups[:-1]
+full_icon_groups = full_icon_groups[:-1]  # remove comma from last one
 
 json_text = f"""
 {{
