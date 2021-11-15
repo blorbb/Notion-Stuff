@@ -15,7 +15,7 @@
     },
     {
         "name": "Misc",
-        "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/%23ebebeb",
+        "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/ebebeb",
         "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
