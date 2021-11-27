@@ -25,6 +25,7 @@ for folder in folder_list:
         # everything before and after the fill
         beginning = source_code[:start_index]
         ending = source_code[end_index:]
+        # * custom hex codes
         if folder == "ebebeb":
             recoloured_code = beginning + f'fill="#ebebeb"' + ending
         else:
