@@ -2,7 +2,7 @@
 ---
 **ahk script usage:**
 - create a math block (`ctrl+shift+e` for inline (aligned left) or `/beq` (aligned centre) for block equation)
-- type `\table` and wait for it to load
+- type `\table` for a tooltip that shows the 5 table types (see more at bottom)
 - in `\begin{array}{|l l|}`, `{|l l|}` is the settings for the table
     - press `shift+left` when the table is created to quickly go to this section
     - every letter is a column (`l`, `c` or `r` for different alignments)
@@ -12,17 +12,19 @@
 - press `tab` to create a new column
     - your cursor should be one level inside braces
         - e.g. at `\t{\b{}_}`, not at `\t{\b{_}}`
-    - change the script from `{right}` to `{end}` if you probably wouldnt create columns between columns (commented inside the script, at the `tab::` hotkey)
+    - change the script from `{right}` to `{end}` if you probably wouldn't create columns between columns (commented inside the script, at the `tab::` hotkey)
 - press `shift+enter` to create a new row
 - press `ctrl+enter` to create a new row with a horizontal line
 - `ctrl+z` is a sort of pseudo-undo, works if you accidentally created something and want to undo it
 - hotkeys stop working once `enter`, `esc` or `alt+tab` is pressed
 
-change the hotkeys if you wish, `^` is ctrl, `+` is shift, `!` is alt, `#` is windows key
+change the hotkeys if you wish: `^` is ctrl, `+` is shift, `!` is alt, `#` is windows key
 
 default table can also be changed, add or remove some `\hline` or `|` to tweak
 
 compiled version (.exe) for ppl who dont have ahk
 
 **custom css:**
-for use with notion enhanced; makes font of `\textsf{}` the same size and typeface
+for use with Notion Enhancer; makes font of `\textsf{}` the same size and typeface
+
+[Click here to go Notion page with examples](https://an-interesting.notion.site/KaTeX-Simple-tables-0755a48c58174fc68a3a73d9747d39e4)
