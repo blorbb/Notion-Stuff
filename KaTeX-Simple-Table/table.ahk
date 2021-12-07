@@ -6,13 +6,26 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 inTable := False
 tableIsNew := False
 
-f12::reload
-
 #Hotstring EndChars `t `t ( ) [ ] , .  - \ / ? ! ;ending character
-#Hotstring ? c    ;case sensitive, within other text
+#Hotstring ? c         ;caps sensitive, within other text
 
 
 #IfWinActive, ahk_exe Notion Enhanced.exe
+
+:*B0:\table::
+Tooltip,
+(
+b: boxed                 l|l, h`ns: split                     r|l`ng: grid                    |l|l|, h`ncb: custom boxed  | |, h`nc: custom
+)
+sleep, 50
+SetTimer, RemoveToolTip, 500
+return
+
+RemoveToolTip:
+	Input, var, L1 V,, {enter}{tab}{LControl}{RControl}{LAlt}{LWin}{RWin}{AppsKey}{F1}{F2}{F3}{F4}{F5}{F6}{F7}{F8}{F9}{F10}{F11}{F12}{Left}{Right}{Up}{Down}{Home}{End}{PgUp}{PgDn}{Del}{Ins}{BS}{Capslock}{Numlock}
+	Tooltip
+return
+
 
 createTable() {
 	global
@@ -35,7 +48,7 @@ createTable() {
 	switch tableType {
 	Case "boxed":        leftNum := 22
 	Case "split":        leftNum := 13
-	Case "grid":         leftNum := 34
+	Case "grid":         leftNum := 22
 	Case "custom boxed": leftNum := 35
 	Case "custom":       leftNum := 18
 	}
@@ -132,20 +145,11 @@ return
 
 #if (inTable == True)
 	; turn off when enter, esc or alt tab is pressed
-	enter::
-		inTable := False
-		send, {enter}
-	return
+	~enter::inTable := False
 
-	esc::
-		inTable := False
-		send, {esc}
-	return
+	~esc::inTable := False
 
-	!tab::
-		intable := False
-		send, !{tab}
-	return
+	~!tab::intable := False
 
 	; create new row
 	+enter::
@@ -168,7 +172,7 @@ return
 		recent := "hline"
 	return
 
- 	; bold
+	; bold
 	^b::
 		send, \b{{}{}}{left}
 		recent := "bold"
