@@ -4,31 +4,31 @@
     {
         "name": "Project",
         "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/lightcyan",
-        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "reddit", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Main",
         "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/gold",
-        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "reddit", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Misc",
         "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/ebebeb",
-        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "reddit", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Database",
         "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/darksalmon",
-        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "reddit", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     },
     {
         "name": "Stuff",
         "sourceUrl": "https://raw.githubusercontent.com/blorbb/Notion-Stuff/master/Notion-Icons/mediumaquamarine",
-        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
+        "source": ["academic-cap", "archive", "atom", "book", "bookmark-alt", "bookmark", "brain", "cake", "calculator", "calendar-alt", "calendar", "check", "chip", "clipboard-list", "cloud", "cocktail", "code", "cog", "collection", "compare", "computer", "cube", "document-text", "dots-circle-horizontal", "duplicate", "fast-forward", "fire", "globe", "home", "light-bulb", "lightning-bolt", "math", "music-note", "notion", "open-book", "paint-brush", "palette", "pencil", "play", "reddit", "stack", "star", "template", "thumb-up", "waves", "web", "zoom-in"],
         "extension": "svg"
     }
   ]
