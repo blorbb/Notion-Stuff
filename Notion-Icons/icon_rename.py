@@ -21,10 +21,10 @@ for folder in folder_list:
 
         # get index of substring 'fill="something"'
         start_index = source_code.index('fill="')
-        end_index = source_code.index(">", start_index)
+        end_index = source_code.index('"', start_index+6)
         # everything before and after the fill
         beginning = source_code[:start_index]
-        ending = source_code[end_index:]
+        ending = source_code[end_index+1:]
         # * custom hex codes
         if folder == "ebebeb":
             recoloured_code = beginning + f'fill="#ebebeb"' + ending
